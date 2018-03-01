@@ -11,3 +11,13 @@ export NVM_DIR="$HOME/.nvm"
 source $ZSH/oh-my-zsh.sh
 
 PROMPT="%B%F{blue}%~%F{white} ─── "
+
+# Always work in a tmux session if tmux is installed
+# https://github.com/chrishunt/dot-files/blob/master/.zshrc
+if which tmux 2>&1 >/dev/null; then
+  if [ $TERM != "screen-256color" ] && [ $TERM != "screen" ]; then
+    tmux; exit
+  fi
+fi
+
+DISABLE_AUTO_TITLE="true"
