@@ -1,0 +1,11 @@
+{
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.fontWeight": "normal",
+    "workbench.statusBar.feedback.visible": false
+}
