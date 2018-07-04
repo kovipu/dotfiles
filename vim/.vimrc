@@ -3,3 +3,6 @@ map i <up>
 map j <left>
 map k <down>
 noremap h i
+
+set number
+colorscheme monokai_pro
