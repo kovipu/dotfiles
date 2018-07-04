@@ -15,9 +15,12 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+set mouse=a
+
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
-Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+Plug 'MaxMEllon/vim-jsx-pretty'
 call plug#end()
