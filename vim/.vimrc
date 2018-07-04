@@ -15,4 +15,5 @@ set expandtab
 call plug#begin('~/.vim/plugged')
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
+Plug 'mxw/vim-jsx'
 call plug#end()
