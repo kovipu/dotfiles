@@ -19,8 +19,14 @@ set mouse=a
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'vim-scripts/vim-auto-save'
+Plug 'Yggdroot/indentLine'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
+
+let g:indentLine_char = '▏'
