@@ -25,6 +25,9 @@ set expandtab
 
 set mouse=a
 
+" enable cursorline in insert mode
+:autocmd InsertEnter,InsertLeave * set cul!
+
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'

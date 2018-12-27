@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/snap/bin:/usr/local/opt/openvpn/sbin/:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
