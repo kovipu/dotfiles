@@ -9,6 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 source $ZSH/oh-my-zsh.sh
+plugins=(zsh-autosuggestions)
 
 PROMPT="%B%F{blue}%~%F{white} ─── "
 
@@ -23,3 +24,7 @@ LS_COLORS='no=00:fi=00:di=34:ow=34;40:ln=35:pi=30;44:so=35;44:do=35;44:bd=33;44:
 # fi
 
 DISABLE_AUTO_TITLE="true"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/konsta/.sdkman"
+[[ -s "/Users/konsta/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/konsta/.sdkman/bin/sdkman-init.sh"

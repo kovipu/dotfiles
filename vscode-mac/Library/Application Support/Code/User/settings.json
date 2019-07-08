@@ -4,8 +4,14 @@
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "Monokai Pro Icons",
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "terminal.integrated.cursorBlinking": true,
     "editor.fontWeight": "normal",
-    "workbench.statusBar.feedback.visible": false
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": false,
+    "latex-workshop.message.update.show": false,
+    "editor.rulers": [
+        120
+    ],
+    "latex-workshop.latex.autoBuild.run": "never"
 }

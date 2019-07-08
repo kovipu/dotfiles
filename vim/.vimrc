@@ -8,6 +8,14 @@ noremap h i
 nnoremap <silent> <C-n> :tabnext<CR>
 nnoremap <silent> <C-p> :tabprevious<CR>
 
+" bind A-i and A-k to move line up and down
+nnoremap <A-k> :m .+1<CR>==
+nnoremap <A-i> :m .-2<CR>==
+inoremap <A-k> <Esc>:m .+1<CR>==gi
+inoremap <A-i> <Esc>:m .-2<CR>==gi
+vnoremap <A-k> :m '>+1<CR>gv=gv
+vnoremap <A-i> :m '<-2<CR>gv=gv
+
 set number
 colorscheme monokai_pro
 hi TabLineFill cterm=none ctermfg=bg ctermbg=bg
