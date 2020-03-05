@@ -13,5 +13,6 @@
     "editor.rulers": [
         120
     ],
-    "latex-workshop.latex.autoBuild.run": "never"
+    "latex-workshop.latex.autoBuild.run": "never",
+    "workbench.sideBar.location": "right"
 }
