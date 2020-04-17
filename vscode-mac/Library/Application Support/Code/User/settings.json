@@ -1,8 +1,6 @@
 {
-    "editor.renderIndentGuides": false,
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Night Owl",
     "editor.minimap.enabled": false,
     "window.zoomLevel": 1,
     "terminal.integrated.cursorBlinking": true,
@@ -14,5 +12,7 @@
         120
     ],
     "latex-workshop.latex.autoBuild.run": "never",
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false
 }
