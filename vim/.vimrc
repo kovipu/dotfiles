@@ -17,10 +17,6 @@ vnoremap <A-k> :m '>+1<CR>gv=gv
 vnoremap <A-i> :m '<-2<CR>gv=gv
 
 set number
-colorscheme monokai_pro
-hi TabLineFill cterm=none ctermfg=bg ctermbg=bg
-hi TabLine cterm=none ctermfg=darkgrey ctermbg=bg
-hi TabLineSel cterm=none ctermfg=green ctermbg=bg
 
 set ignorecase
 set hlsearch
