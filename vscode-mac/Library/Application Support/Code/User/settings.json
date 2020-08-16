@@ -1,10 +1,9 @@
 {
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Night Owl",
-    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Night Owl (No Italics)",
     "window.zoomLevel": 1,
     "terminal.integrated.cursorBlinking": true,
-    "editor.fontWeight": "normal",
+    "editor.fontWeight": "300",
     "files.autoSave": "afterDelay",
     "breadcrumbs.enabled": false,
     "latex-workshop.message.update.show": false,
@@ -13,6 +12,12 @@
     ],
     "latex-workshop.latex.autoBuild.run": "never",
     "workbench.sideBar.location": "right",
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Cascadia Mono PL, Menlo, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.semanticTokenColorCustomizations": null
 }
