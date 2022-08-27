@@ -9,5 +9,15 @@ alias nvm=fnm
 
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit /var/folders/x3/hyj90tv13yz97h4j2ttmg1h40000gn/T/vscode-zsh/.p10k.zsh.
-[[ ! -f /var/folders/x3/hyj90tv13yz97h4j2ttmg1h40000gn/T/vscode-zsh/.p10k.zsh ]] || source /var/folders/x3/hyj90tv13yz97h4j2ttmg1h40000gn/T/vscode-zsh/.p10k.zsh
+# To customize prompt, run `p10k configure`
+source ~/.p10k.zsh
+
+# fnm configuration
+export PATH="/Users/konsta/Library/Caches/fnm_multishells/16268_1660458702309/bin":$PATH
+export FNM_MULTISHELL_PATH="/Users/konsta/Library/Caches/fnm_multishells/16268_1660458702309"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_DIR="/Users/konsta/Library/Application Support/fnm"
+export FNM_LOGLEVEL="info"
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_ARCH="arm64"
+rehash
