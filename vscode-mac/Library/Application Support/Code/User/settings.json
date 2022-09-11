@@ -1,23 +1,83 @@
 {
-    "editor.tabSize": 2,
-    "workbench.colorTheme": "Night Owl (No Italics)",
-    "window.zoomLevel": 1,
-    "terminal.integrated.cursorBlinking": true,
-    "editor.fontWeight": "300",
-    "files.autoSave": "afterDelay",
-    "breadcrumbs.enabled": false,
-    "latex-workshop.message.update.show": false,
-    "editor.rulers": [
-        120
-    ],
-    "latex-workshop.latex.autoBuild.run": "never",
-    "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
-    "explorer.confirmDelete": false,
-    "editor.fontFamily": "Cascadia Mono PL, Menlo, Monaco, 'Courier New', monospace",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.overviewRulerBorder": false,
-    "editor.semanticTokenColorCustomizations": null
+  "workbench.colorTheme": "ｖａｐｏｒｗａｖｅ",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.fontWeight": "normal",
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
+  "editor.rulers": [120],
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
+      "default": true
+    },
+    {
+      "name": "JavaSE-15",
+      "path": "/Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home"
+    }
+  ],
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/konsta/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "hclformat.path": "/Users/konsta/go/bin",
+  "java.project.importHint": false,
+  // "editor.renderIndentGuides": false,
+  "[python]": {
+    "editor.tabSize": 4,
+    "gitlens.codeLens.symbolScopes": ["!Module"]
+  },
+  "python.languageServer": "Default",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "php.validate.executablePath": "",
+  "terminal.integrated.scrollback": 10000,
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "sass.andStared": ["active", "focus", "hover", "nth-child"],
+  "editor.renderWhitespace": "trailing",
+  "spring-boot.ls.logfile": "",
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "editor.fontFamily": "Cascadia Code PL, monospace",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontSize": 10,
+  "editor.codeActionsOnSave": null,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": false,
+  "workbench.panel.defaultLocation": "left",
+  "emmet.includeLanguages": {
+    "rust": "html"
+  },
+  "rust-analyzer.inlayHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.lens.enable": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "http.proxyAuthorization": null,
+  "svelte.language-server.runtime": "/Users/konsta/.nvm/versions/node/v16.13.0/bin/node",
+  "svelte.enable-ts-plugin": true,
+  "window.zoomLevel": 1
 }

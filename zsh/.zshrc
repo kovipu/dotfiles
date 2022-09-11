@@ -1,7 +1,17 @@
-export PATH=$HOME/bin:/usr/local/bin:/snap/bin:/usr/local/opt/openvpn/sbin/:$HOME/go/bin:$PATH
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export PATH=/Users/konsta/Downloads/jdk8u265-b01/Contents/Home/bin:$HOME/bin:/usr/local/bin:/snap/bin:/usr/local/opt/openvpn/sbin/:$HOME/go/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# export ZSH=$HOME/.oh-my-zsh
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+export JRE_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
 
 # Enable nvm
 export NVM_DIR="$HOME/.nvm"
@@ -25,3 +35,14 @@ LS_COLORS='no=00:fi=00:di=34:ow=34;40:ln=35:pi=30;44:so=35;44:do=35;44:bd=33;44:
 # fi
 
 DISABLE_AUTO_TITLE="true"
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+alias clockify='/Users/konsta/.clockify-cli/clockify-cli'
+
+# add mysql-client to path
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+[ -f "/Users/konsta/.ghcup/env" ] && source "/Users/konsta/.ghcup/env" # ghcup-env

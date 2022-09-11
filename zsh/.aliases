@@ -1,0 +1,5 @@
+alias ls="lsd"
+alias s="git status"
+
+git config --global alias.amend "commit --amend"
+git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
