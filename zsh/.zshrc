@@ -6,8 +6,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 alias nvm=fnm
+alias python=python3.9
+alias pip=pip3.9
 
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+autoload -Uz compinit && compinit
 
 # To customize prompt, run `p10k configure`
 source ~/.p10k.zsh
