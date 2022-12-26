@@ -6,3 +6,5 @@ map('i', 'jk', '', {})
 -- Toggle nvim-tree
 map('n', 'n', [[:NvimTreeToggle]], {})
 
+-- toggle telescope
+map('n', 'ff', [[:Telescope find_files]], {})
