@@ -13,6 +13,8 @@ require('nightfox').setup()
 require('nvim-tree').setup()
 require('lualine').setup()
 require('nvim-autopairs').setup()
+require('telescope').setup {}
+-- require('telescope').load_extension('fzf')
 
 vim.o.showtabline = 2
 

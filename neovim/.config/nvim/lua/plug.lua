@@ -1,9 +1,10 @@
 return require('packer').startup({
   function(use)
+    -- packer itself
+    use 'wbthomason/packer.nvim'
     -- theme
     use "EdenEast/nightfox.nvim"
-    use { "ellisonleao/gruvbox.nvim" }
-    use 'nanozuki/tabby.nvim'
+    use 'nanozuki/tabby.nvim'                          -- tabline
     use {
       'nvim-lualine/lualine.nvim',                     -- statusline
       requires = {'kyazdani42/nvim-web-devicons',
@@ -17,6 +18,10 @@ return require('packer').startup({
     use {
       'nvim-telescope/telescope.nvim',                 -- fuzzy finder
       requires = { {'nvim-lua/plenary.nvim'} }
+    }
+    use {
+      'nvim-telescope/telescope-fzf-native.nvim',
+      run = 'make'
     }
     -- coding stuff
     use { 'tpope/vim-fugitive' }                       -- git integration
