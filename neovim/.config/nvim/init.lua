@@ -15,6 +15,7 @@ require('lualine').setup()
 require('nvim-autopairs').setup()
 require('telescope').setup {}
 -- require('telescope').load_extension('fzf')
+require('gitsigns').setup()
 
 vim.o.showtabline = 2
 

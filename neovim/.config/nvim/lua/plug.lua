@@ -7,8 +7,10 @@ return require('packer').startup({
     use 'nanozuki/tabby.nvim'                          -- tabline
     use {
       'nvim-lualine/lualine.nvim',                     -- statusline
-      requires = {'kyazdani42/nvim-web-devicons',
-                  opt = true}
+      requires = {
+        'kyazdani42/nvim-web-devicons',
+         opt = true
+       }
     }
     -- filetree & finder
     use {                                              -- filesystem navigation
@@ -25,6 +27,7 @@ return require('packer').startup({
     }
     -- coding stuff
     use { 'tpope/vim-fugitive' }                       -- git integration
+    use { 'lewis6991/gitsigns.nvim' }                  -- git gutter symbols
     use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
   end,
   config = {
