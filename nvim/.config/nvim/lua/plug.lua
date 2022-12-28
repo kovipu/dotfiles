@@ -29,6 +29,7 @@ return require('packer').startup({
     use { 'tpope/vim-fugitive' }                       -- git integration
     use { 'lewis6991/gitsigns.nvim' }                  -- git gutter symbols
     use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
+    use { 'Olical/conjure' }                           -- Clojure plugin
   end,
   config = {
     package_root = vim.fn.stdpath('config') .. '/site/pack'

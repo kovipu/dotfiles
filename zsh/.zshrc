@@ -17,7 +17,7 @@ autoload -Uz compinit && compinit
 source ~/.p10k.zsh
 
 # fnm configuration
-export PATH="/Users/konsta/Library/Caches/fnm_multishells/16268_1660458702309/bin":$PATH
+export PATH="/Users/konsta/.local/bin:/Users/konsta/Library/Caches/fnm_multishells/16268_1660458702309/bin":$PATH
 export FNM_MULTISHELL_PATH="/Users/konsta/Library/Caches/fnm_multishells/16268_1660458702309"
 export FNM_VERSION_FILE_STRATEGY="local"
 export FNM_DIR="/Users/konsta/Library/Application Support/fnm"
