@@ -2,7 +2,7 @@
 # https://www.joshmedeski.com/posts/blazing-fast-window-management-on-macos/
 
 # launch applications
-cmd - return : open -na kitty
+cmd - return : kitty --single-instance -d ~
 
 # focus window
 alt - h : yabai -m window --focus west
