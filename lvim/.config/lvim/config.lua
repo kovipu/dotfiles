@@ -29,3 +29,10 @@ lvim.builtin.treesitter.ensure_installed = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
+
+-- plugins
+lvim.plugins = {
+  { 'Olical/conjure' },
+  { 'radenling/vim-dispatch-neovim' },
+  { 'clojure-vim/vim-jack-in' }
+}

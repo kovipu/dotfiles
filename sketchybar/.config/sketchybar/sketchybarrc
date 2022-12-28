@@ -21,7 +21,7 @@ sketchybar --add item clock right\
    --set clock script="$PLUGIN_DIR/clock.sh" update_freq=1
 
 sketchybar --add item battery right\
-  --set battery script="$PLUGIN_DIR/battery.sh update_freq=30"
+  --set battery script="$PLUGIN_DIR/battery.sh" update_freq=30
 
 
 # The below command is only needed at the end of the initial configuration and
