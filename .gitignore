@@ -1,4 +1,4 @@
 
 neovim/.config/nvim/site
 neovim/.config/nvim/plugin
-packaer_compiled.lua
+packer_compiled.lua

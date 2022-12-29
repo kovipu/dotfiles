@@ -2,6 +2,7 @@
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
 lvim.colorscheme = "lunar"
+vim.opt.relativenumber = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"

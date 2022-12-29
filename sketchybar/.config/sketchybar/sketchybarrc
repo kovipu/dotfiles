@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
-FONT="MesloLGS NF"
+FONT="CaskaydiaCove Nerd Font"
 
 sketchybar --bar\
       height=39\
@@ -13,7 +13,7 @@ sketchybar --bar\
 sketchybar --default\
   updates=when_shown\
   icon.font="$FONT:Bold:14.0"\
-  label.font="$FONT:Regular:11.0"\
+  label.font="$FONT:Regular:13.0"\
   label.padding_left=4\
   label.padding_right=4\
 
