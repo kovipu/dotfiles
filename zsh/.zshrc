@@ -6,7 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 alias nvm=fnm
-alias python=python3.9
 alias pip=pip3.9
 
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -28,3 +27,8 @@ rehash
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/Cellar/tfenv/3.0.0/versions/1.3.3/terraform terraform
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

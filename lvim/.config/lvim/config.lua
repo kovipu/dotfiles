@@ -33,7 +33,18 @@ lvim.builtin.treesitter.highlight.enable = true
 
 -- plugins
 lvim.plugins = {
-  { 'Olical/conjure' },
-  { 'radenling/vim-dispatch-neovim' },
-  { 'clojure-vim/vim-jack-in' }
+  'othree/html5.vim',
+  'pangloss/vim-javascript',
+  'evanleck/vim-svelte',
+  'purescript-contrib/purescript-vim',
+  'xiyaowong/transparent.nvim'
+}
+
+--formatters
+local formatters = require "lvim.lsp.null-ls.formatters"
+formatters.setup {
+  {
+    name = "prettier",
+    filetypes = { "typescript", "typescriptreact" },
+  }
 }
