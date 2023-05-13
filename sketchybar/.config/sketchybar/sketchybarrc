@@ -17,6 +17,9 @@ sketchybar --default\
   label.padding_left=4\
   label.padding_right=4\
 
+sketchybar --add item pomodoro left\
+  --set pomodoro script="$PLUGIN_DIR/pomodoro.sh" update_freq=1
+
 sketchybar --add item clock right\
    --set clock script="$PLUGIN_DIR/clock.sh" update_freq=1
 
