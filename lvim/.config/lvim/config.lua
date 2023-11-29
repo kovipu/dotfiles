@@ -1,7 +1,10 @@
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "lunar"
+
+-- style stuff
+lvim.colorscheme = "solarized"
+lvim.background = "dark"
 vim.opt.relativenumber = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
@@ -25,7 +28,8 @@ lvim.builtin.treesitter.ensure_installed = {
   "css",
   "rust",
   "yaml",
-  "clojure"
+  "clojure",
+  "haskell",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -33,11 +37,27 @@ lvim.builtin.treesitter.highlight.enable = true
 
 -- plugins
 lvim.plugins = {
+  'sheerun/vim-polyglot',
   'othree/html5.vim',
   'pangloss/vim-javascript',
   'evanleck/vim-svelte',
-  'purescript-contrib/purescript-vim',
-  'xiyaowong/transparent.nvim'
+  { 'purescript-contrib/purescript-vim' },
+  'xiyaowong/transparent.nvim',
+  'EdenEast/nightfox.nvim',
+  'catppuccin/nvim',
+  'folke/zen-mode.nvim',
+  {
+    'mrcjkb/haskell-tools.nvim',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'nvim-telescope/telescope.nvim', -- optional
+    },
+    branch = '1.x.x', -- recommended
+  },
+  'nbouscal/vim-stylish-haskell',
+  'KoBruhh/tranquil-vim',
+  'p00f/alabaster.nvim',
+  'maxmx03/solarized.nvim',
 }
 
 --formatters
