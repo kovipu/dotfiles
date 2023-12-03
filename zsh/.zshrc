@@ -33,3 +33,4 @@ export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(direnv hook zsh)"

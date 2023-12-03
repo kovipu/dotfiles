@@ -48,11 +48,8 @@ lvim.plugins = {
   'folke/zen-mode.nvim',
   {
     'mrcjkb/haskell-tools.nvim',
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-      'nvim-telescope/telescope.nvim', -- optional
-    },
-    branch = '1.x.x', -- recommended
+    version = '^3',
+    ft = { 'haskell', 'lhaskell', 'cabal', 'cabalproject' },
   },
   'nbouscal/vim-stylish-haskell',
   'KoBruhh/tranquil-vim',
